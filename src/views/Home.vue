@@ -39,7 +39,7 @@ export default {
       name: '',
       about: '',
       price: '',
-      addCard: [{name:'asdasd',about:'asdasdasd',price:'33124'}] 
+      addCard: [{name:'Наименование товара',about:'Описание товара в несколько строчек',price:'33124 рублей'}] 
     };
   },
   methods: {
