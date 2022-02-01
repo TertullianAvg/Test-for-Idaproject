@@ -25,7 +25,7 @@
     <h1 class="card-title"> {{c.name}}</h1>
     <p class="card-title">{{c.about}}</p>
     <h1 class="card-title"><b>{{c.price}}</b></h1>
-    <button v-on:click="handleDelete(c)" id="delete"></button>
+    <button @click="handleDelete(c)" id="delete"></button>
     </div>
      
    
